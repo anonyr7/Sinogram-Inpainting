@@ -6,7 +6,7 @@
 - pytorch=1.6.0
 - torch-radon=0.0.1 (https://github.com/matteo-ronchetti/torch-radon) 
 
-Some models such as FISTA-TV require another environment, specified in its document.
+Some models such as FISTA-TV require another environment, specified in its document. 
 
 ### Instructions:
 
