@@ -18,3 +18,11 @@ Some models such as FISTA-TV require another environment, specified in its docum
 3. For dataset download please refer to further instructions in the `Data` folder. The jupyter notebook `TCIA_data_preprocessing.ipynb` includes our way of data augmentation.
 
 4. We provide our implementation of the state-of-the-art models mentioned in the paper: FISTA-TV, cGAN, and Neumann Networks in `State-of-the-art` folder.
+
+### Cone-Beam Example Results:
+
+This is a preliminary experiment for extension to 3D cone-beam reconstructions, the walnut data come from https://github.com/cicwi/WalnutReconstructionCodes.
+
+Sparse-View FDK | SIN | SIN-4c-PRN    |  Ground Truth
+:--------------:|:---:|:------------:|:---------------:
+<img src="https://github.com/anonyr7/Sinogram-Inpainting/blob/master/Toy-Dataset/Walnut6_sparseFDK-min.gif?raw=true" width="200" height="200"/>| <img src="https://github.com/anonyr7/Sinogram-Inpainting/blob/master/Toy-Dataset/Walnut6_SIN-min.gif?raw=true" width="200" height="200"/>|  <img src="https://github.com/anonyr7/Sinogram-Inpainting/blob/master/Toy-Dataset/Walnut6_SIN-4c-PRN-min.gif?raw=true" width="200" height="200"/>|  <img src="https://github.com/anonyr7/Sinogram-Inpainting/blob/master/Toy-Dataset/Walnut6_GT-min.gif?raw=true" width="200" height="200"/>
