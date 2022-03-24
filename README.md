@@ -26,3 +26,14 @@ This is a preliminary experiment for extension to 3D cone-beam reconstructions, 
 Sparse-View FDK | SIN | SIN-4c-PRN    |  Ground Truth
 :--------------:|:---:|:------------:|:---------------:
 <img src="https://github.com/anonyr7/Sinogram-Inpainting/blob/master/Toy-Dataset/Walnut6_sparseFDK-min.gif?raw=true" width="200" height="200"/>| <img src="https://github.com/anonyr7/Sinogram-Inpainting/blob/master/Toy-Dataset/Walnut6_SIN-min.gif?raw=true" width="200" height="200"/>|  <img src="https://github.com/anonyr7/Sinogram-Inpainting/blob/master/Toy-Dataset/Walnut6_SIN-4c-PRN-min.gif?raw=true" width="200" height="200"/>|  <img src="https://github.com/anonyr7/Sinogram-Inpainting/blob/master/Toy-Dataset/Walnut6_GT-min.gif?raw=true" width="200" height="200"/>
+
+
+Please cite our paper:
+```
+@article{wei20202,
+  title={2-step sparse-view ct reconstruction with a domain-specific perceptual network},
+  author={Wei, Haoyu and Schiffers, Florian and W{\"u}rfl, Tobias and Shen, Daming and Kim, Daniel and Katsaggelos, Aggelos K and Cossairt, Oliver},
+  journal={arXiv preprint arXiv:2012.04743},
+  year={2020}
+}
+```
